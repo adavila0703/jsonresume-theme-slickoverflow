@@ -1,17 +1,20 @@
-# Slick Overflow theme for jsonresume 
+# Slickoverflow Theme for Jsonresume 
 
-> A variation of the original jsonresume stack overflow theme.
+> A variation of jsonresume-theme-stackoverflow.
 
+## Demo
 
-# Getting started
+![](resume.jpg)
 
-### Install the jsonresume CLI
+# Getting Started
+
+## Install the jsonresume CLI
 
 ```
 npm install -g resume-cli
 ```
 
-### Install theme
+## Install the slickoverflow theme
 
 ```
 npm install jsonresume-theme-slickoverflow
@@ -21,24 +24,15 @@ or
 npm install https://github.com/adavila0703/jsonresume-theme-slickoverflow
 ```
 
-### Export command
+## Create Schema
 
-Before running this export command, make sure to use the schema below.
-
-#### Windows
+Use the following command to initialize a resume.json file.
 
 ```
-resume export -f pdf -t .\\node_modules\\jsonresume-theme-slickoverflow\\ resume.pdf
-```
-#### Mac 
-
-```
-resume export -f pdf -t ./node_modules/jsonresume-theme-slickoverflow/ resume.pdf
+resume init
 ```
 
-# Schema
-
-Store the following json schema in a file called "resume.json"
+Store the following json schema in your resume.json file.
 
 ```json
 {
@@ -163,6 +157,18 @@ Store the following json schema in a file called "resume.json"
     ]
 }
 ```
-## Example
 
-![](resume.jpg)"# jsonresume-theme-slickoverflow" 
+## Export command
+
+#### Windows
+
+```
+resume export -f pdf -t .\\node_modules\\jsonresume-theme-slickoverflow\\ resume.pdf
+```
+#### Mac 
+
+```
+resume export -f pdf -t ./node_modules/jsonresume-theme-slickoverflow/ resume.pdf
+```
+
+
