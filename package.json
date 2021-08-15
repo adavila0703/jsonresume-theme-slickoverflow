@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-slickoverflow",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A variation of the original jsonresume stack overflow theme.",
   "main": "index.js",
   "dependencies": {
